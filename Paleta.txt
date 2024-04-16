@@ -1,0 +1,7 @@
+Enlace: https://coolors.co/25283d-8f3985-a675a1-cea2ac-efd9ce
+
+Azul: #25283D
+Violeta: #8F3985
+Violeta claro: #A675A1
+Café rososo: #CEA2AC
+Rosado pálido: #EFD9CE

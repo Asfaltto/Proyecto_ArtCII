@@ -1,0 +1,39 @@
+{
+  "registrados": [
+    {
+      "id:": 1,
+      "nombre": "Un Nombre",
+      "correo": "correo@correo.com",
+      "telefono": "3003003030",
+      "contrasena": "contrasena"
+    },
+    {
+      "id:": 2,
+      "nombre": "Otro Nombre",
+      "correo": "otrocorreo@correo.com",
+      "telefono": "4004004040",
+      "contrasena": "contrasena"
+    }
+  ],
+
+  "artes": [
+    { "id:": 1, "miguel": "🐀🐀🐀🐀" },
+    { "id:": 2, "pluton": "🐶🐶🐶🐶" },
+    { "id:": 3, "piedro": "🗻🗻🗻🗻" }
+  ],
+
+  "mensajes": [
+    {
+      "id:": 1,
+      "nombre": "Perkinator4000",
+      "correo": "perkin@correo.com",
+      "mensaje": "Qué buena página, me gusta mucho compartir con todos."
+    },
+    {
+      "id:": 2,
+      "nombre": "LeonardoDaVino",
+      "correo": "davino@correo.com",
+      "mensaje": "No pinto toda Colombia porque no me dejan, pero ArtCII me permite hacer algo muy parecido."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "description": "pagina front",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "name": "pagina_front",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "start": "json-server ./ArtCII/base/base.json"
+  },
+  "author": "Diego Aristizabal",
+  "license": "ISC"
+}

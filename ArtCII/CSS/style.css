@@ -1,0 +1,257 @@
+:root {
+  --Fuente: "Candara";
+  --Principal: #a675a1;
+  --Complementario: #8f3985;
+  --Secundario: #cea2ac;
+  --Blanco: #efd9ce;
+  --Azul: #25283d;
+}
+
+html {
+
+  box-sizing: border-box;
+  font-family: var(--Fuente);
+  font-size: medium;
+  background-color: var(--Secundario);
+  justify-content: center;
+}
+
+p {
+  font-size: medium;
+}
+
+img {
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 1rem;
+  max-width: 80%;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--Fuente);
+  padding: 1rem;
+  color: var(--Azul);
+}
+
+h2 {
+  text-align: center;
+  font-family: var(--Fuente);
+}
+
+h3 {
+  text-align: center;
+  font-family: var(--Fuente);
+}
+
+hr {
+  color: var(--Secundario);
+}
+
+main {
+  justify-content: center;
+}
+
+.logo {
+  max-width: 20%; /* Establece el ancho máximo al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+  display: block;
+  margin: 0 auto; /* Centra el logo horizontalmente */
+}
+
+.enlace {
+  font-family: var(--Fuente);
+  color: var(--Blanco);
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.enlace_texto {
+  color: var(--Secundario);
+}
+
+.enlace_texto:hover {
+  color: var(--Principal);
+}
+
+.enlace:hover {
+  color: var(--Principal);
+}
+
+.artes {
+  background-color: var(--Azul);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.arte {
+  background-color: var(--Blanco);
+  border: #25283d;
+  border-radius: inherit;
+  padding: inherit;
+  font-size: medium;
+}
+
+.perfiles {
+  background-color: var(--Azul);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.perfil {
+  background-color: var(--Blanco);
+  border: #25283d;
+  border-radius: inherit;
+  padding: inherit;
+  text-indent: inherit;
+  font-size: medium;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.cabecera {
+  background-color: var(--Blanco);
+  display: grid;
+  text-align: center;
+  padding: 0rem;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.texto {
+  background-color: var(--Azul);
+  padding: 1rem;
+  border-radius: 2rem;
+  color: var(--Blanco);
+  text-align: end;
+}
+
+.texto p {
+  font-size: 1.3rem;
+}
+
+.imagen_lateral {
+  display: flex;
+}
+
+.navegacion {
+  background-color: var(--Azul);
+  padding: 0.6rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.producto {
+  background-color: var(--Complementario);
+  padding: 1rem;
+}
+
+.formulario {
+  background-color: var(--Azul);
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.formulario fieldset {
+  border: none;
+}
+
+.con_entrada {
+  margin-bottom: 1rem;
+}
+
+.entrada {
+  margin-bottom: inherit;
+  display: grid;
+  text-align: center;
+}
+
+.entrada label {
+  font-family: var(--Fuente);
+  color: var(--Blanco);
+  margin: inherit;
+  font-size: 2rem;
+}
+
+.respuesta {
+  border: none;
+  text-align: center;
+  padding: 1rem;
+  font-family: var(--Fuente);
+  background-color: var(--Blanco);
+  color: var(--Azul);
+  border-radius: 1rem;
+}
+
+.boton {
+  text-align: center;
+  font-family: var(--Fuente);
+  padding: 0.5rem;
+  width: 40%;
+  color: var(--Azul);
+  background-color: var(--Blanco);
+  border-radius: 1rem;
+}
+
+.boton:hover {
+  color: var(--Secundario);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.banda {
+  margin-top: auto;
+  background-color: var(--Blanco);
+  display: grid;
+  text-align: center;
+}
+
+.banda p {
+  text-align: center;
+  font-family: var(--Fuente);
+  color: var(--Azul);
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.tabla {
+  min-width: auto;
+  background-color: var(--Azul);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.titutabla {
+  color: var(--Blanco);
+  font-size: 1.5rem;
+}
+
+.tede {
+  color: var(--Blanco);
+  text-align: left;
+  border: var(--Secundario);
+  border-style: ridge;
+  padding: 0.5rem;
+}

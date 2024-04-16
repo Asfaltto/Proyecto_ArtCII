@@ -1,0 +1,12 @@
+Plataforma web que permita:
+- Registrarse: Nombre, correo, contraseña
+- Asignar roles: Administrador (gestionar usuarios, contenido) y Visualizador (solo visualizar información)
+
+Requisitos mínimos de página web:
+- Página de inicio con cabecera que tenga menu de navegación y pie de página con información adicional.
+- Página de contacto.
+- Páginas de funcionalidades.
+- Ofrecer un servicio específico: Detallar características y beneficios para los usuarios.
+- Permitir la visualización.
+- Tener una página de contacto para que los usuarios envíen consultas o comentarios.
+- De 5 a 8 páginas.
